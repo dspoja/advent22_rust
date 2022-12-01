@@ -5,18 +5,6 @@ use std::collections::HashMap;
 
 fn main() {
     let elves_vector = read_input();
-    /*
-    # Figure out which elf brought the most calories
-    for i, meals in enumerate(calories):
-        for meal in meals:
-            total_calories += meal
-        if max_calories < total_calories:
-            max_calories = total_calories
-            max_elf = i
-        elf_dict[i + 1] = [total_calories]
-        total_calories = 0
-
-     */
     let mut max_calories = 0;
     let mut max_elf = 0;
     let mut total_calories = 0;
