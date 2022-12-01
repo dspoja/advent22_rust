@@ -12,3 +12,5 @@ Cargo.lock
 # PyCharm
 .idea/
 
+# Ignore the built binary
+main
